@@ -132,6 +132,9 @@
 	.sec-course-title {
 		margin-top: .2rem;
 	}
+	/*room*/
+	/*三级页面图文*/
+	
 }
 
 @media (max-width:768px) {
@@ -187,8 +190,12 @@
 	.sec-lists-page-explain {
 		height: 1.4rem;
 	}
-	.sec-reform-bg02{
+	.sec-reform-bg02 {
 		height: 2.2rem;
+	}
+	/*room*/
+	.room-content {
+		width: 8.8rem;
 	}
 }
 
@@ -237,6 +244,7 @@
 		height: 2.45rem;
 	}
 	/*二级页面列表*/
+	/*room*/
 }
 
 @media (max-width:375px) {

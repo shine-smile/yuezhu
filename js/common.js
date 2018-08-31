@@ -31,11 +31,11 @@ Echo.init({
 	offset: 0,
 	throttle: 0
 });
-$(document).ready(function () {
+$(function(){
 	//侧滑菜单
 	$('[data-toggle="offcanvas"]').click(function () {
 		$('#wrapper').toggleClass('toggled');
 		$(".glyphicon-remove").toggle();
 		$(".glyphicon-menu-hamburger").toggle();
 	});
-});
+})
