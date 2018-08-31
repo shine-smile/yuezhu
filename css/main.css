@@ -932,11 +932,11 @@ h6 {
 }
 
 #wrapper {
-	/*-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease 0;
+	-o-transition: all 0.2s ease 0;
 	-ms-transition: all 0.2s ease;
-	-webkit-transition: all 0.2s ease;
-	transition: all 0.2s ease;*/
+	-webkit-transition: all 0.2s ease 0;
+	transition: all 0.2s ease 0;
 	padding-left: 0;
 }
 
@@ -949,11 +949,11 @@ h6 {
 }
 
 #sidebar-wrapper {
-	/*-moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;*/
+	-moz-transition: all 0.2s ease 0;
+    -o-transition: all 0.2s ease 0;
+    -ms-transition: all 0.2s ease 0;
+    -webkit-transition: all 0.2s ease 0;
+    transition: all 0.2s ease 0;
 	background: #f2563d;
 	height: 100%;
 	left: 2rem;
