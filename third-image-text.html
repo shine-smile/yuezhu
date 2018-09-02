@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>三级页面图文</title>
 		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.bootcss.com/lightcase/2.5.0/css/lightcase.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/media.css" />
 		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
@@ -15,149 +16,238 @@
     <![endif]-->
 		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdn.bootcss.com/lightcase/2.5.0/js/lightcase.js"></script>
 		<script src="js/echo.min.js"></script>
 	</head>
 	<body>
-		<header class="header-content row">
-			<div class="col-lg-4 col-md-4 col-sm-4"> <img class="header-logo" src="images/logo.png" alt="" srcset=""> </div>
-			<div class="col-lg-4 col-md-4 col-sm-4"> <input class="header-search" type="text" name="" id=""> </div>
-			<div class="col-lg-4 col-md-4 col-sm-4">
-				<ul class="header-img">
-					<li> <a href=""><i class="header-people"></i></a> </li>
-					<li class="weixin-erweima"> <a href=""><i class="header-weixin"></i>
+		<div id="wrapper">
+			<!--侧滑菜单部分-->
+			<aside id="sidebar-wrapper" class="navbar-fixed-top">
+				<ul class="nav-side">
+					<li><a href="room.html">沙发</a></li>
+					<li><a href="room.html">床</a></li>
+					<li><a href="room.html">床上用品</a></li>
+					<li><a href="room.html">书柜</a></li>
+					<li><a href="room.html">桌椅</a></li>
+					<li><a href="room.html">照明</a></li>
+				</ul>
+			</aside>
+			<!--主界面部分-->
+			<div class="page-content-wrapper">
+				<!--移动头部-->
+				<div class="mobile-header">
+					<div class="row">
+						<div class="col-xs-4"> <span class="glyphicon glyphicon-remove" data-toggle="offcanvas"></span> <span class="glyphicon glyphicon-menu-hamburger" data-toggle="offcanvas"></span> </div>
+						<div class="col-xs-4 mobile-header-logo"> <img src="images/mobile-logo.png" height="30" onclick="window.location.href='index.html'" /> </div>
+						<div class="col-xs-4 mobile-header-search"> <img src="images/search.png" height="30" /> </div>
+					</div>
+					<div class="mobile-nav row">
+						<div class="col-xs-4"> <a class="mobile-nav-title mobile-nav-active" href="sec-lists.html">必知</a> </div>
+						<div class="col-xs-4"> <a class="mobile-nav-title" href="sec-lists.html">潮流</a> </div>
+						<div class="col-xs-4"> <a class="mobile-nav-title" href="sec-lists.html">订制</a> </div>
+					</div>
+				</div>
+				<!--移动头部结束-->
+				<header class="header-content row">
+					<div class="col-lg-4 col-md-4 col-sm-4"> <img class="header-logo" src="images/logo.png" alt="" srcset=""> </div>
+					<div class="col-lg-4 col-md-4 col-sm-4"> <input class="header-search" type="text" name="" id=""> </div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<ul class="header-img">
+							<li> <a href=""><i class="header-people"></i></a> </li>
+							<li class="weixin-erweima"> <a href=""><i class="header-weixin"></i>
 					<div class="weixin-info">
 						<p class="weixin-arrow"></p>
 						<img src="images/footer-erweima.png" width="100" height="100"/>
 					</div>
 				</a> </li>
-					<li> <a href=""><i class="header-hand"></i></a> </li>
-				</ul>
-			</div>
-		</header>
-		<nav class="main-nav">
-			<div class="main-content">
-				<ul class="nav-first">
-					<li class="nav-active"><a href="index.html">首页</a></li>
-					<li><a href="sec-lists.html">必知</a></li>
-					<li><a href="sec-lists.html">潮流</a></li>
-					<li><a href="sec-lists.html">订制</a></li>
-				</ul>
-				<div class="nav-line"></div>
-				<ul class="nav-first">
-					<li><a href="room.html">客厅</a></li>
-					<li><a href="room.html">餐厅</a></li>
-					<li><a href="room.html">卧室</a></li>
-					<li><a href="room.html">书房</a></li>
-					<li><a href="room.html">儿童房</a></li>
-					<li><a href="room.html">衣帽间</a></li>
-				</ul>
-			</div>
-		</nav>
-		<nav class="sub-nav">
-			<div class="main-content">
-				<ul class="nav-secend">
-					<li> <a class="nav-sofa" href="room.html">沙发</a> </li>
-					<li> <a class="nav-bed" href="room.html">床</a> </li>
-					<li> <a class="nav-bedding-article" href="room.html">床上用品</a> </li>
-					<li> <a class="nav-bookcase" href="room.html">书柜</a> </li>
-					<li> <a class="nav-desk" href="room.html">桌椅</a> </li>
-					<li> <a class="nav-lighting" href="room.html">照明</a> </li>
-				</ul>
-			</div>
-		</nav>
-		<!--header结束-->
-		<!--contont开始-->
-		<section class="main-content">
-			<div class="row">
-				<div class="col-lg-8 col-sm-8 col-xs-12">
-					<section>
-						<h1 class="third-title">北欧风格（Nordic style）是指欧洲北部国家挪威、丹麦、瑞典、芬兰
-及冰岛等国的艺术设计风格。</h1>
-						<p class="third-label"><span>先少林</span><span>最新</span><span>家具风格</span> </p>
-						<p class="third-article">北欧风格（Nordic style）是指欧洲北部国家挪威、丹麦、瑞典、芬兰及冰岛等国的艺术设计风格（主要指室内设计以及工业产品设计），具有简约、自然、人性化的特点。</p>
-						<p class="third-article">北欧风格在使大众利益得到关注的同时，北欧设计没有缺失对小众的关怀。例如消除残障人士在生活上的不便，为其设计便捷的人性设计，实现社会公平。它们都体现了北欧风格设计对人的周全关心。</p>
-						<p class="third-article">在20世纪20年代，大众服务的设计主旨决定了北欧风格设计风靡世界。功能主义在1930年的斯德哥尔摩博览会大放异彩，标志着其突破了斯堪的纳维亚地区，与世界接轨。 北欧风格将德国的崇尚实用功能理念和其本土的传统工艺相结合，富有人情味的设计使得它享誉国际。它逐步形成系统独特的风格于40年代。北欧设计的典型特征是崇尚自然、尊重传统工艺技术。<br/> 20世纪中期的北欧经济的发展迅速使得北欧人拥有高福利的制度。但北欧人依然重视产品的实用性，简单自然的审美观依旧传承。北欧的住宅文化和设计理念深受影响。 故，即使是在工业时代的北欧产品设计都依然保留着关注用户身心健康的人文关怀的要素。传统和时尚创新被北欧设计师运用得淋漓尽致。 </p> <img class="img-rounded img-responsive third-text-image lazy" src="images/blank.gif" data-echo="images/third-text-img1.png" alt="">
-						<p class="third-article">古代，北欧风格是以哥特式风格为主。现代，大体来说北欧风格基本分类有两种，一是充满现代造型线条的现代风格modern style，另一种则是崇尚自然、乡间质朴的自然风格nature style。</p>
-						<div class="third-article-author">原创文章，作者：wu。转载或内容合作请点击转载说明，违规转载法律必究。</div> <button class="btn-good" type="submit"></button>
-						<h5 class="interested-article">您可能感兴趣的文章</h5>
-						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-								<a class="interested-article-lists" href="#"> <img class="img-responsive lazy" src="images/blank.gif" data-echo="images/third-text-img2.png" />
-									<p>最前线|三星宣布下半年推出智能音响，想获得市场并不容易</p>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-								<a class="interested-article-lists" href="#"> <img class="img-responsive lazy" src="images/blank.gif" data-echo="images/third-text-img3.png" />
-									<p>手机厂商席卷智能音响，只是为了“自保”？</p>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-								<a class="interested-article-lists" href="#"> <img class="img-responsive lazy" src="images/blank.gif" data-echo="images/third-text-img4.png" />
-									<p>手机厂商提刀杀来，智能音响进入下半场</p>
-								</a>
-							</div>
-						</div>
-					</section>
-				</div>
-				<aside>
-					<div class="col-lg-4 col-sm-4 col-xs-12">
-						<div class="sec-reform">
-							<div class="sec-reform-bg">小夫妻爆改20平变32平空间利用大增！</div>
-						</div>
-						<article class="sec-understand">
-							<h2 class="course-title">快速了解定制教程!</h2>
-							<ul class="course-lists">
-								<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
-								<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
-								<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
-								<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
-								<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
-							</ul>
-							<div class="more-btn more-btn-margin">查看全部空间内容</div>
-							<h2 class="course-title">热门文章</h2>
-							<div class="sec-reform sec-reform-bg02">
-								<div class="sec-reform-bg">小夫妻爆改20平变32平空间利用大增！</div>
-							</div>
-						</article>
-					</div>
-				</aside>
-			</div>
-		</section>
-		<!--content结束-->
-		<!--底部-->
-		<footer class="main-footer">
-			<div class="main-content">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-4">
-						<h2 class="footer-title">悦筑精品服务</h2>
-						<div class="media footer-service">
-							<div class="media-left"><img class="media-object" src="images/footer-logo01.png" alt=""></div>
-							<div class="media-body footer-neighbor">
-								<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
-						</div>
-						<div class="media footer-service">
-							<div class="media-left"><img class="media-object" src="images/footer-logo02.png" alt=""></div>
-							<div class="media-body footer-neighbor">
-								<h4 class="media-heading">邻居一起买<span>公众号</span></h4>最全的家居达人指南</div>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-5 col-sm-5">
-						<h2 class="footer-title">列表导航</h2>
-						<ul class="footer-nav">
-							<li><a href="sec-lists.html">必知</a></li>
-							<li><a href="sec-lists.html">潮流</a></li>
-							<li><a href="sec-lists.html">订制</a></li>
-							<li><a href="room.html">空间</a></li>
-							<li><a href="room.html">单品</a></li>
+							<li> <a href=""><i class="header-hand"></i></a> </li>
 						</ul>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 footer-erweima">
-						<h2 class="footer-title">悦筑精品服务</h2> <img class="lazy" src="images/blank.gif" data-echo="images/footer-erweima.png" />
-						<p class="footer-people">你就是家居达人</p>
+				</header>
+				<nav class="main-nav">
+					<div class="main-content">
+						<ul class="nav-first">
+							<li><a href="index.html">首页</a></li>
+							<li class="nav-active"><a href="sec-lists.html">必知</a></li>
+							<li><a href="sec-lists.html">潮流</a></li>
+							<li><a href="sec-lists.html">订制</a></li>
+						</ul>
+						<div class="nav-line"></div>
+						<ul class="nav-first">
+							<li><a href="room.html">客厅</a></li>
+							<li><a href="room.html">餐厅</a></li>
+							<li><a href="room.html">卧室</a></li>
+							<li><a href="room.html">书房</a></li>
+							<li><a href="room.html">儿童房</a></li>
+							<li><a href="room.html">衣帽间</a></li>
+						</ul>
 					</div>
-				</div>
+				</nav>
+				<nav class="sub-nav">
+					<div class="main-content">
+						<ul class="nav-secend">
+							<li> <a class="nav-sofa" href="room.html">沙发</a> </li>
+							<li> <a class="nav-bed" href="room.html">床</a> </li>
+							<li> <a class="nav-bedding-article" href="room.html">床上用品</a> </li>
+							<li> <a class="nav-bookcase" href="room.html">书柜</a> </li>
+							<li> <a class="nav-desk" href="room.html">桌椅</a> </li>
+							<li> <a class="nav-lighting" href="room.html">照明</a> </li>
+						</ul>
+					</div>
+				</nav>
+				<!--header结束-->
+				<!--contont开始-->
+				<section class="main-content">
+					<div class="row">
+						<div class="col-lg-8 col-sm-8 col-xs-12">
+							<section>
+								<h1 class="third-title">北欧风格（Nordic style）是指欧洲北部国家挪威、丹麦、瑞典、芬兰
+及冰岛等国的艺术设计风格。</h1>
+								<p class="third-label"><span>先少林</span><span>最新</span><span>家具风格</span> </p>
+								<p class="third-article">北欧风格（Nordic style）是指欧洲北部国家挪威、丹麦、瑞典、芬兰及冰岛等国的艺术设计风格（主要指室内设计以及工业产品设计），具有简约、自然、人性化的特点。</p>
+								<p class="third-article">北欧风格在使大众利益得到关注的同时，北欧设计没有缺失对小众的关怀。例如消除残障人士在生活上的不便，为其设计便捷的人性设计，实现社会公平。它们都体现了北欧风格设计对人的周全关心。</p>
+								<p class="third-article">在20世纪20年代，大众服务的设计主旨决定了北欧风格设计风靡世界。功能主义在1930年的斯德哥尔摩博览会大放异彩，标志着其突破了斯堪的纳维亚地区，与世界接轨。 北欧风格将德国的崇尚实用功能理念和其本土的传统工艺相结合，富有人情味的设计使得它享誉国际。它逐步形成系统独特的风格于40年代。北欧设计的典型特征是崇尚自然、尊重传统工艺技术。<br/> 20世纪中期的北欧经济的发展迅速使得北欧人拥有高福利的制度。但北欧人依然重视产品的实用性，简单自然的审美观依旧传承。北欧的住宅文化和设计理念深受影响。 故，即使是在工业时代的北欧产品设计都依然保留着关注用户身心健康的人文关怀的要素。传统和时尚创新被北欧设计师运用得淋漓尽致。 </p> 
+								<img class="img-rounded img-responsive third-text-image lazy" src="images/blank.gif" data-echo="images/third-text-img1.png" alt="">
+								<p class="third-article index-mobile-hide">古代，北欧风格是以哥特式风格为主。现代，大体来说北欧风格基本分类有两种，一是充满现代造型线条的现代风格modern style，另一种则是崇尚自然、乡间质朴的自然风格nature style。</p>
+								<div class="third-article-author index-mobile-hide">原创文章，作者：wu。转载或内容合作请点击转载说明，违规转载法律必究。</div> <button class="btn-good" type="submit"></button>
+								<h5 class="interested-article">您可能感兴趣的文章</h5>
+								<div class="row media index-mobile-show">
+									<div class="col-sm-5 col-xs-5 mobile-index-lists">
+										<div class="media-left">
+											<a href="javascript:;"><img class="img-responsive media-object" src="images/blank.gif" data-echo="images/third-text-img2.png" alt=""></a>
+										</div>
+									</div>
+									<a href="third-image-text.html">
+										<div class="col-sm-7 col-xs-7 mobile-padding">
+											<div class="media-body sec-lists-page-explain" style="height: auto;">
+												<h4 class="media-heading" style="height: auto;">新中式现代风格餐厅</h4>
+												<p class="europe-style">北欧风格（Nordic style）是指欧洲北部国家挪威。</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="row media  index-mobile-show mobile-interest-margin">
+									<div class="col-sm-5 col-xs-5 mobile-index-lists">
+										<div class="media-left">
+											<a href="javascript:;"><img class="img-responsive media-object" src="images/blank.gif" data-echo="images/third-text-img2.png" alt=""></a>
+										</div>
+									</div>
+									<a href="third-image-text.html">
+										<div class="col-sm-7 col-xs-7 mobile-padding">
+											<div class="media-body sec-lists-page-explain" style="height: auto;">
+												<h4 class="media-heading" style="height: auto;">新中式现代风格餐厅</h4>
+												<p class="europe-style">北欧风格（Nordic style）是指欧洲北部国家挪威。</p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="row index-mobile-hide">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<a class="interested-article-lists" href="#"> <img class="img-responsive lazy" src="images/blank.gif" data-echo="images/third-text-img2.png" />
+											<p>最前线|三星宣布下半年推出智能音响，想获得市场并不容易</p>
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<a class="interested-article-lists" href="#"> <img class="img-responsive lazy" src="images/blank.gif" data-echo="images/third-text-img3.png" />
+											<p>手机厂商席卷智能音响，只是为了“自保”？</p>
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<a class="interested-article-lists" href="#"> <img class="img-responsive lazy" src="images/blank.gif" data-echo="images/third-text-img4.png" />
+											<p>手机厂商提刀杀来，智能音响进入下半场</p>
+										</a>
+									</div>
+								</div>
+							</section>
+						</div>
+						<aside class="index-mobile-hide">
+							<div class="col-lg-4 col-sm-4 col-xs-12">
+								<div class="sec-reform">
+									<div class="sec-reform-bg">小夫妻爆改20平变32平空间利用大增！</div>
+								</div>
+								<article class="sec-understand">
+									<h2 class="course-title">快速了解定制教程!</h2>
+									<ul class="course-lists">
+										<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
+										<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
+										<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
+										<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
+										<li> <a href="#"><span class="glyphicon glyphicon-play course-arrow"></span>【干货】当设计完成后，施工方和业主签署合 同后就开始进入施工阶段了</a> </li>
+									</ul>
+									<div class="more-btn more-btn-margin">查看全部空间内容</div>
+									<h2 class="course-title">热门文章</h2>
+									<div class="sec-reform sec-reform-bg02">
+										<div class="sec-reform-bg">小夫妻爆改20平变32平空间利用大增！</div>
+									</div>
+								</article>
+							</div>
+						</aside>
+					</div>
+				</section>
+				<!--content结束-->
+				<!--底部-->
+				<footer class="main-footer">
+					<div class="main-content">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<h2 class="footer-title">悦筑精品服务</h2>
+								<div class="media footer-service">
+									<div class="media-left"><img class="media-object" src="images/footer-logo01.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
+								</div>
+								<div class="media footer-service">
+									<div class="media-left"><img class="media-object" src="images/footer-logo02.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>公众号</span></h4>最全的家居达人指南</div>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-5 col-sm-5">
+								<h2 class="footer-title">列表导航</h2>
+								<ul class="footer-nav">
+									<li><a href="sec-lists.html">必知</a></li>
+									<li><a href="sec-lists.html">潮流</a></li>
+									<li><a href="sec-lists.html">订制</a></li>
+									<li><a href="room.html">空间</a></li>
+									<li><a href="room.html">单品</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 footer-erweima">
+								<h2 class="footer-title">悦筑精品服务</h2> <img class="lazy" src="images/blank.gif" data-echo="images/footer-erweima.png" />
+								<p class="footer-people">你就是家居达人</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!--移动底部-->
+				<footer class="mobile-footer">
+					<div class="mobile-footer-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<h2 class="footer-title">悦筑精品服务</h2> </div>
+							<div class="col-xs-6">
+								<div class="media footer-service">
+									<div class="media-left"> <img class="media-object mobile-footer-img" src="images/footer-logo01.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="media footer-service">
+									<div class="media-left"> <img class="media-object mobile-footer-img" src="images/footer-logo02.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
+								</div>
+							</div>
+							<div class="col-xs-12">
+								<h2 class="footer-title">悦筑精品服务</h2> </div>
+							<div class="col-xs-12 mobile-footer-nav"> <a href="#">必知</a> <a href="#">潮流</a> <a href="#">订制</a> <a href="#">空间</a> <a href="#">单品</a> </div>
+						</div>
+					</div>
+				</footer>
+				<!--移动底部结束-->
 			</div>
-		</footer>
+		</div>
 		<script src="js/common.js"></script>
 	</body>
 </html>

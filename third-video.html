@@ -18,148 +18,200 @@
 		<script src="js/echo.min.js"></script>
 	</head>
 	<body>
-		<header class="header-content row">
-			<div class="col-lg-4 col-md-4 col-sm-4"> <img class="header-logo" src="images/logo.png" alt="" srcset=""> </div>
-			<div class="col-lg-4 col-md-4 col-sm-4"> <input class="header-search" type="text" name="" id=""> </div>
-			<div class="col-lg-4 col-md-4 col-sm-4">
-				<ul class="header-img">
-					<li> <a href=""><i class="header-people"></i></a> </li>
-					<li class="weixin-erweima"> <a href=""><i class="header-weixin"></i>
+		<div id="wrapper">
+			<!--侧滑菜单部分-->
+			<aside id="sidebar-wrapper" class="navbar-fixed-top">
+				<ul class="nav-side">
+					<li><a href="room.html">沙发</a></li>
+					<li><a href="room.html">床</a></li>
+					<li><a href="room.html">床上用品</a></li>
+					<li><a href="room.html">书柜</a></li>
+					<li><a href="room.html">桌椅</a></li>
+					<li><a href="room.html">照明</a></li>
+				</ul>
+			</aside>
+			<!--主界面部分-->
+			<div class="page-content-wrapper">
+				<!--移动头部-->
+				<div class="mobile-header">
+					<div class="row">
+						<div class="col-xs-4"> <span class="glyphicon glyphicon-remove" data-toggle="offcanvas"></span> <span class="glyphicon glyphicon-menu-hamburger" data-toggle="offcanvas"></span> </div>
+						<div class="col-xs-4 mobile-header-logo"> <img src="images/mobile-logo.png" height="30" onclick="window.location.href='index.html'" /> </div>
+						<div class="col-xs-4 mobile-header-search"> <img src="images/search.png" height="30" /> </div>
+					</div>
+					<div class="mobile-nav row">
+						<div class="col-xs-4"> <a class="mobile-nav-title mobile-nav-active" href="sec-lists.html">必知</a> </div>
+						<div class="col-xs-4"> <a class="mobile-nav-title" href="sec-lists.html">潮流</a> </div>
+						<div class="col-xs-4"> <a class="mobile-nav-title" href="sec-lists.html">订制</a> </div>
+					</div>
+				</div>
+				<!--移动头部结束-->
+				<header class="header-content row">
+					<div class="col-lg-4 col-md-4 col-sm-4"> <img class="header-logo" src="images/logo.png" alt="" srcset=""> </div>
+					<div class="col-lg-4 col-md-4 col-sm-4"> <input class="header-search" type="text" name="" id=""> </div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<ul class="header-img">
+							<li> <a href=""><i class="header-people"></i></a> </li>
+							<li class="weixin-erweima"> <a href=""><i class="header-weixin"></i>
 					<div class="weixin-info">
 						<p class="weixin-arrow"></p>
 						<img src="images/footer-erweima.png" width="100" height="100"/>
 					</div>
 				</a> </li>
-					<li> <a href=""><i class="header-hand"></i></a> </li>
-				</ul>
-			</div>
-		</header>
-		<nav class="main-nav">
-			<div class="main-content">
-				<ul class="nav-first">
-					<li class="nav-active"><a href="index.html">首页</a></li>
-					<li><a href="sec-lists.html">必知</a></li>
-					<li><a href="sec-lists.html">潮流</a></li>
-					<li><a href="sec-lists.html">订制</a></li>
-				</ul>
-				<div class="nav-line"></div>
-				<ul class="nav-first">
-					<li><a href="room.html">客厅</a></li>
-					<li><a href="room.html">餐厅</a></li>
-					<li><a href="room.html">卧室</a></li>
-					<li><a href="room.html">书房</a></li>
-					<li><a href="room.html">儿童房</a></li>
-					<li><a href="room.html">衣帽间</a></li>
-				</ul>
-			</div>
-		</nav>
-		<nav class="sub-nav">
-			<div class="main-content">
-				<ul class="nav-secend">
-					<li> <a class="nav-sofa" href="room.html">沙发</a> </li>
-					<li> <a class="nav-bed" href="room.html">床</a> </li>
-					<li> <a class="nav-bedding-article" href="room.html">床上用品</a> </li>
-					<li> <a class="nav-bookcase" href="room.html">书柜</a> </li>
-					<li> <a class="nav-desk" href="room.html">桌椅</a> </li>
-					<li> <a class="nav-lighting" href="room.html">照明</a> </li>
-				</ul>
-			</div>
-		</nav>
-		<!--header结束-->
-		<!--contont开始-->
-		<section class="main-content">
-			<div class="row">
-				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-					<section>
-						<h1 class="third-title">北欧风格（Nordic style）是指欧洲北部国家挪威、丹麦、瑞典、芬兰
-及冰岛等国的艺术设计风格。</h1>
-						<p class="third-label"><span>先少林</span><span>最新</span><span>家具风格</span> </p>
-					</section>
-				</div>
-			</div>
-			<div class="row video-content">
-				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> 
-					<iframe class="embed-responsive-item third-video-iframe" frameborder="0" src="https://v.qq.com/x/page/f0559ua32uf.html" width="100%"></iframe> </div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<h3 class="vieo-lately">最近视频</h3>
-					<div class="media sec-lists-page">
-						<a href="#">
-							<div class="media-left"> 
-								<img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img01.png" alt=""> </div>
-							<div class="media-body vieo-title">
-								<h4 class="media-heading">看氟 | 腾讯游戏危机，大厂也要“绝地求生”</h4>
-								<div class="sec-lists-page-label"> <span>2018-08-18</span> </div>
-							</div>
-						</a>
-					</div>
-					<div class="media sec-lists-page">
-						<a href="#">
-							<div class="media-left"> 
-								<img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img02.png" alt=""> </div>
-							<div class="media-body vieo-title">
-								<h4 class="media-heading">罗永浩怼对OPPO抄袭，锤子为什么总干不过同行？</h4>
-								<div class="sec-lists-page-label"> <span>2018-08-17</span> </div>
-							</div>
-						</a>
-					</div>
-					<div class="media sec-lists-page">
-						<a href="#">
-							<div class="media-left"> 
-								<img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img03.png" alt=""> </div>
-							<div class="media-body vieo-title">
-								<h4 class="media-heading">猎豹CEO傅盛：从互联网到人工智能，深度学习给了我弯道超车的机会</h4>
-								<div class="sec-lists-page-label"> <span>2018-08-17</span> </div>
-							</div>
-						</a>
-					</div>
-					<div class="media sec-lists-page">
-						<a href="#">
-							<div class="media-left"> 
-								<img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img04.png" alt=""> </div>
-							<div class="media-body vieo-title">
-								<h4 class="media-heading">潜水，摄影，打高尔夫，世界机器人大会上的“大明星”你pick谁？</h4>
-								<div class="sec-lists-page-label"> <span>2018-08-16</span> </div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--content结束-->
-		<!--底部-->
-		<footer class="main-footer">
-			<div class="main-content">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-4">
-						<h2 class="footer-title">悦筑精品服务</h2>
-						<div class="media footer-service">
-							<div class="media-left"><img class="media-object" src="images/footer-logo01.png" alt=""></div>
-							<div class="media-body footer-neighbor">
-								<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
-						</div>
-						<div class="media footer-service">
-							<div class="media-left"><img class="media-object" src="images/footer-logo02.png" alt=""></div>
-							<div class="media-body footer-neighbor">
-								<h4 class="media-heading">邻居一起买<span>公众号</span></h4>最全的家居达人指南</div>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-5 col-sm-5">
-						<h2 class="footer-title">列表导航</h2>
-						<ul class="footer-nav">
-							<li><a href="sec-lists.html">必知</a></li>
-							<li><a href="sec-lists.html">潮流</a></li>
-							<li><a href="sec-lists.html">订制</a></li>
-							<li><a href="room.html">空间</a></li>
-							<li><a href="room.html">单品</a></li>
+							<li> <a href=""><i class="header-hand"></i></a> </li>
 						</ul>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 footer-erweima">
-						<h2 class="footer-title">悦筑精品服务</h2> <img class="lazy" src="images/blank.gif" data-echo="images/footer-erweima.png" />
-						<p class="footer-people">你就是家居达人</p>
+				</header>
+				<nav class="main-nav">
+					<div class="main-content">
+						<ul class="nav-first">
+							<li><a href="index.html">首页</a></li>
+							<li class="nav-active"><a href="sec-lists.html">必知</a></li>
+							<li><a href="sec-lists.html">潮流</a></li>
+							<li><a href="sec-lists.html">订制</a></li>
+						</ul>
+						<div class="nav-line"></div>
+						<ul class="nav-first">
+							<li><a href="room.html">客厅</a></li>
+							<li><a href="room.html">餐厅</a></li>
+							<li><a href="room.html">卧室</a></li>
+							<li><a href="room.html">书房</a></li>
+							<li><a href="room.html">儿童房</a></li>
+							<li><a href="room.html">衣帽间</a></li>
+						</ul>
 					</div>
-				</div>
+				</nav>
+				<nav class="sub-nav">
+					<div class="main-content">
+						<ul class="nav-secend">
+							<li> <a class="nav-sofa" href="room.html">沙发</a> </li>
+							<li> <a class="nav-bed" href="room.html">床</a> </li>
+							<li> <a class="nav-bedding-article" href="room.html">床上用品</a> </li>
+							<li> <a class="nav-bookcase" href="room.html">书柜</a> </li>
+							<li> <a class="nav-desk" href="room.html">桌椅</a> </li>
+							<li> <a class="nav-lighting" href="room.html">照明</a> </li>
+						</ul>
+					</div>
+				</nav>
+				<!--header结束-->
+				<!--contont开始-->
+				<section class="main-content">
+					<div class="row">
+						<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+							<section>
+								<h1 class="third-title">北欧风格（Nordic style）是指欧洲北部国家挪威、丹麦、瑞典、芬兰
+及冰岛等国的艺术设计风格。</h1>
+								<p class="third-label"><span>先少林</span><span>最新</span><span>家具风格</span> </p>
+							</section>
+						</div>
+					</div>
+					<div class="row video-content">
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> <iframe class="embed-responsive-item third-video-iframe" frameborder="0" src="https://v.qq.com/x/page/f0559ua32uf.html" width="100%"></iframe> </div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 third-video-lists">
+							<h3 class="vieo-lately">最近视频</h3>
+							<div class="media sec-lists-page third-video-lately">
+								<a href="#">
+									<div class="media-left"> <img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img01.png" alt=""> </div>
+									<div class="media-body vieo-title">
+										<h4 class="media-heading">看氟 | 腾讯游戏危机，大厂也要“绝地求生”</h4>
+										<div class="sec-lists-page-label"> <span>2018-08-18</span> </div>
+									</div>
+								</a>
+							</div>
+							<div class="media sec-lists-page third-video-lately">
+								<a href="#">
+									<div class="media-left"> <img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img02.png" alt=""> </div>
+									<div class="media-body vieo-title">
+										<h4 class="media-heading">罗永浩怼对OPPO抄袭，锤子为什么总干不过同行？</h4>
+										<div class="sec-lists-page-label"> <span>2018-08-17</span> </div>
+									</div>
+								</a>
+							</div>
+							<div class="media sec-lists-page third-video-lately">
+								<a href="#">
+									<div class="media-left"> <img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img03.png" alt=""> </div>
+									<div class="media-body vieo-title">
+										<h4 class="media-heading">猎豹CEO傅盛：从互联网到人工智能，深度学习给了我弯道超车的机会</h4>
+										<div class="sec-lists-page-label"> <span>2018-08-17</span> </div>
+									</div>
+								</a>
+							</div>
+							<div class="media sec-lists-page third-video-lately">
+								<a href="#">
+									<div class="media-left"> <img class="media-object third-video lazy" src="images/blank.gif" data-echo="images/third-video-img04.png" alt=""> </div>
+									<div class="media-body vieo-title">
+										<h4 class="media-heading">潜水，摄影，打高尔夫，世界机器人大会上的“大明星”你pick谁？</h4>
+										<div class="sec-lists-page-label"> <span>2018-08-16</span> </div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--content结束-->
+				<!--底部-->
+				<footer class="main-footer">
+					<div class="main-content">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<h2 class="footer-title">悦筑精品服务</h2>
+								<div class="media footer-service">
+									<div class="media-left"><img class="media-object" src="images/footer-logo01.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
+								</div>
+								<div class="media footer-service">
+									<div class="media-left"><img class="media-object" src="images/footer-logo02.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>公众号</span></h4>最全的家居达人指南</div>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-5 col-sm-5">
+								<h2 class="footer-title">列表导航</h2>
+								<ul class="footer-nav">
+									<li><a href="sec-lists.html">必知</a></li>
+									<li><a href="sec-lists.html">潮流</a></li>
+									<li><a href="sec-lists.html">订制</a></li>
+									<li><a href="room.html">空间</a></li>
+									<li><a href="room.html">单品</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 footer-erweima">
+								<h2 class="footer-title">悦筑精品服务</h2> <img class="lazy" src="images/blank.gif" data-echo="images/footer-erweima.png" />
+								<p class="footer-people">你就是家居达人</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!--移动底部-->
+				<footer class="mobile-footer">
+					<div class="mobile-footer-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<h2 class="footer-title">悦筑精品服务</h2> </div>
+							<div class="col-xs-6">
+								<div class="media footer-service">
+									<div class="media-left"> <img class="media-object mobile-footer-img" src="images/footer-logo01.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="media footer-service">
+									<div class="media-left"> <img class="media-object mobile-footer-img" src="images/footer-logo02.png" alt=""></div>
+									<div class="media-body footer-neighbor">
+										<h4 class="media-heading">邻居一起买<span>小程序</span></h4>社区大团购，邻居一起买</div>
+								</div>
+							</div>
+							<div class="col-xs-12">
+								<h2 class="footer-title">悦筑精品服务</h2> </div>
+							<div class="col-xs-12 mobile-footer-nav"> <a href="#">必知</a> <a href="#">潮流</a> <a href="#">订制</a> <a href="#">空间</a> <a href="#">单品</a> </div>
+						</div>
+					</div>
+				</footer>
+				<!--移动底部结束-->
 			</div>
-		</footer>
+		</div>
 		<script src="js/common.js"></script>
 	</body>
 </html>

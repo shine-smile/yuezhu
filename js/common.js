@@ -31,11 +31,15 @@ Echo.init({
 	offset: 0,
 	throttle: 0
 });
-$(function(){
+$(function () {
 	//侧滑菜单
 	$('[data-toggle="offcanvas"]').click(function () {
 		$('#wrapper').toggleClass('toggled');
 		$(".glyphicon-remove").toggle();
 		$(".glyphicon-menu-hamburger").toggle();
+	});
+	//图片点击放大
+	$('.enlarge-img').lightcase({
+		transition: 'fade'
 	});
 })
